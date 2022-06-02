@@ -1,0 +1,68 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+       
+}
+
+.svg {
+    width: 45px;
+    height: 45px;
+}
+
+.svg-2 {
+    width: 25px;
+    height: 25px;
+}
+
+.inp {
+    width: 80%;
+    height: 60px;
+    border: 1px solid gray;
+    padding-left: 15px;
+}
+
+.icons {
+    font-size: 25px;
+}
+
+.checkBox{
+    width: 20px;
+    height: 20px;
+}
+
+.log {
+    width: 26%;
+    height: 60px;
+}
+
+::placeholder{
+    font-size: larger;
+}
+
+/* .forgetPass{
+    margin-left: 80%;
+} */
+
+.second-col {
+    margin-top: 110px !important;
+}
+
+a{
+    text-decoration: none;
+}
+
+@media screen and (max-width:1000px){
+    .icons{
+        margin-left:30%;
+    }
+    .or{
+        margin-left: 10%;
+    }
+}
+form{
+input{
+// margin: 0 auto !important;
+}}
